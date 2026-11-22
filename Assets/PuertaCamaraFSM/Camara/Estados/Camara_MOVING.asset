@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15dd711f16c0c484e9884aed1bd5150f, type: 3}
+  m_Name: Camara_MOVING
+  m_EditorClassIdentifier: 
+  enterActions:
+  - {fileID: 11400000, guid: 5d46b8a3dda04442b8d38ec90cb99356, type: 2}
+  - {fileID: 11400000, guid: b547908e292f4bceaf97831f66bd8f1c, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 468a858ee6b94fedb73ea86d1f84cd8e, type: 2}
+  - {fileID: 11400000, guid: 65dc158ede6c4f8a89031958ecb78933, type: 2}
+  exitActions:
+  - {fileID: 11400000, guid: 9d5669912afb4b618f667504c6ca0782, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 8f4907671f6446e99c5caf54676b889c, type: 2}
+    trueState: {fileID: 11400000, guid: 016f79b9334642a2a59b6fcf4ddc3512, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: 6ec45aff126d45b3a880e8bacfc713e7, type: 2}
+    trueState: {fileID: 11400000, guid: 4b903b1761c04fac93a482bace726371, type: 2}
+    falseState: {fileID: 0}

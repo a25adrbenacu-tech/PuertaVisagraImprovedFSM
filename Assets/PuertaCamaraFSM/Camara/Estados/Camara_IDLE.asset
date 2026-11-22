@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15dd711f16c0c484e9884aed1bd5150f, type: 3}
+  m_Name: Camara_IDLE
+  m_EditorClassIdentifier: 
+  enterActions:
+  - {fileID: 11400000, guid: 2aec9fa2aebc4bc7ab85081f06fd81af, type: 2}
+  - {fileID: 11400000, guid: b547908e292f4bceaf97831f66bd8f1c, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 468a858ee6b94fedb73ea86d1f84cd8e, type: 2}
+  exitActions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: 8f4907671f6446e99c5caf54676b889c, type: 2}
+    trueState: {fileID: 11400000, guid: 016f79b9334642a2a59b6fcf4ddc3512, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 11400000, guid: a8812e19db024660a4c75929120683b2, type: 2}
+    trueState: {fileID: 11400000, guid: 97e422ba37434698bbe6b4d578d822d8, type: 2}
+    falseState: {fileID: 0}
